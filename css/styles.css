@@ -17,6 +17,7 @@ ul {
     border: 0.2px solid lightgray;
     width: 250px;
     border-radius: var(--border-radius);
+    
 }
 
 li {
@@ -59,7 +60,8 @@ li {
 
  .container {
      display: grid;
-     grid-template-columns: 300px 1fr 50px;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr 1fr;
  }
 
  #modal-container {
@@ -73,15 +75,18 @@ li {
     border: 10px solid lightgray;
      border-radius: var(--border-radius);
      padding: 20px;
-     max-height: 600px;
-     max-width: 500px;
+     height: 800px;
+     width: 800px;
+     z-index: 1;
   }
 
   #modal-container.is-visible:hover {
-  transform: scale(1.1,1.1);
   box-shadow: 10px 10px 10px gray;
+
   }
+
 img {
     max-width: 450px;
     width: 100%;
 }
+
