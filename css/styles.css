@@ -4,24 +4,39 @@
 body {
     font-family: helvetica;
     font-size: 20px;
-    margin: 100px;
 }
 
-:root {
-    --border-radius:12px;
-}
 
 ul {
     padding: 0;
     list-style-type: none;
-    border: 0.2px solid lightgray;
-    width: 250px;
-    border-radius: var(--border-radius);
-    
 }
 
 li {
     margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+button {
+    max-width: 120px;
+    margin: 12px;
+}
+
+.pkn-btn:hover {
+    background:  lightgray;
+    color: black;
+    border: 1px dashed;
+    transform: scale(1.2,1.2)
+    
+}
+
+.container {
+    margin-top: 160px;
 }
 
 #app-title {
@@ -35,57 +50,8 @@ li {
     text-transform: capitalize;
 }
 
-.modal-close {
-    padding: 10px;
-    border: none;
-}
-
-.poke-btn {
-    border: 0.2px solid lightgray;
-    text-align: left;
-    padding: 20px;
-    width:97%;
-    border-radius: var(--border-radius);
-    margin: 4px;
-}
-
-.poke-btn:hover {
-    transform: scale(1.2,1.2);
-    background-color: lightgray;
-    box-shadow: 5px 5px 10px gray;
-    width:90%;
-}
-
- /* styling models */
-
- .container {
-     display: grid;
-     grid-template-columns: 1fr;
-     grid-template-rows: 1fr 1fr;
- }
-
- #modal-container {
-     display: none;
-     /* background-color: lightgray; */
-  }
-  
-  #modal-container.is-visible {
-    /* CSS for modal container - add your own desired CSS styles here */
-    display: block;
-    border: 10px solid lightgray;
-     border-radius: var(--border-radius);
-     padding: 20px;
-     height: 800px;
-     width: 800px;
-     z-index: 1;
-  }
-
-  #modal-container.is-visible:hover {
-  box-shadow: 10px 10px 10px gray;
-
-  }
-
-img {
+.imagen {
+    min-width: 300px;
     max-width: 450px;
     width: 100%;
 }
