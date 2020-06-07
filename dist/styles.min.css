@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat&display=swap');
+
+body {
+    font-family: helvetica;
+    font-size: 20px;
+}
+
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+button {
+    max-width: 120px;
+    margin: 12px;
+}
+
+.pkn-btn:hover {
+    background:  lightgray;
+    color: black;
+    border: 1px dashed;
+    transform: scale(1.2,1.2)
+    
+}
+
+.container {
+    margin-top: 160px;
+}
+
+#app-title {
+    font-family: 'Bungee', cursive;
+    font-size: 24px;
+}
+
+.poke-name-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 52px;
+    text-transform: capitalize;
+}
+
+.imagen {
+    min-width: 300px;
+    max-width: 450px;
+    width: 100%;
+}
+
